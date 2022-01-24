@@ -1,0 +1,47 @@
+.banner-img {
+    height: 80vh;
+}
+
+@media only screen and (min-width:560px) and (max-width: 720) {
+    .banner-img {
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .img-accordion {
+        position: absolute;
+        top: -10vh;
+    }
+
+}
+
+.fa-apple-pay {
+    background-color: darkblue;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: -2px;
+}
+
+.fa-google-play {
+    background-color: rgb(139, 0, 42);
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px !important;
+}
+
+.demo {
+    margin-right: 200px;
+}
+
+.hot {
+    transform: scale(120%);
+    top: -25px;
+}
